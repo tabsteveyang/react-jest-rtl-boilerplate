@@ -1,0 +1,16 @@
+node_modules
+
+# html
+build/index.html
+
+# css
+build/css/*
+!build/css/lib
+!build/css/fonts
+
+# js
+build/js/*
+!build/js/lib
+
+# img
+build/img/
