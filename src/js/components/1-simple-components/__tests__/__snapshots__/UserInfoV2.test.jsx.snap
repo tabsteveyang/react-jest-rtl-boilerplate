@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserInfoV2.jsx snapshot renders correctly, falsy values 1`] = `
+<div
+  className="user-info"
+>
+  
+  
+  
+</div>
+`;
+
+exports[`UserInfoV2.jsx snapshot renders correctly, truthy values 1`] = `
+<div
+  className="user-info"
+>
+  <div
+    className="user-info__user-id"
+  >
+    202200001
+  </div>
+  <div
+    className="user-info__user-name"
+  >
+    Test User
+  </div>
+  <div
+    className="user-info__user-img"
+  >
+    <img
+      src="./test_user.img"
+    />
+  </div>
+</div>
+`;

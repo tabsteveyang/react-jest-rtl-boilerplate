@@ -16,3 +16,13 @@ export const setSettings = (data) => ({
   type: SET_SETTINGS,
   data
 })
+
+export const SET_USER_INFO = 'SET_USER_INFO'
+export const CLEAR_USER_INFO = 'CLEAR_USER_INFO'
+export const setUserInfo = (data) => ({
+  type: SET_USER_INFO,
+  data
+})
+export const clearUserInfo = () => ({
+  type: CLEAR_USER_INFO,
+})
