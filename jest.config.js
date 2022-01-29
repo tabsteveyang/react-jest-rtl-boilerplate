@@ -30,7 +30,8 @@ module.exports = {
     moduleNameMapper: {
       '^@js(.*)$': '<rootDir>/src/js$1',
       '^@scss(.*)$': '<rootDir>/src/scss$1',
-      '^@img(.*)$': '<rootDir>/img$1'
+      '^@img(.*)$': '<rootDir>/img$1',
+      '^@jest(.*)$': '<rootDir>/jest$1'
     },
     moduleFileExtensions: [
       'web.js',

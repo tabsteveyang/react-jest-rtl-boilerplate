@@ -61,6 +61,7 @@ module.exports = function (env, argv) {
         '@js': path.resolve(__dirname, 'src/js/'),
         '@scss': path.resolve(__dirname, 'src/scss/'),
         '@img': path.resolve(__dirname, 'img/'),
+        '@jest': path.resolve(__dirname, 'jest/')
       }
     },
     plugins: [
