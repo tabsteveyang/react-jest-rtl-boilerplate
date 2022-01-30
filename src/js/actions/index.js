@@ -1,9 +1,9 @@
 import * as api from '../api'
 
 export const SET_SETTINGS = 'SET_SETTINGS'
-export const startSetSettings = () => dispatch => {
+export const startGetSettings = (payload) => dispatch => {
   return new Promise((resolve, reject) => {
-    api.getSettings()
+    api.getSettings(payload)
       .then(res => {
         if (res) {
           dispatch(setSettings(res))

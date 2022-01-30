@@ -1,11 +1,12 @@
-// import axiosInstance from 'src/js/modules/axiosInstance'
-// const axios = axiosInstance()
+// import axios from 'axios'
 
 export const getSettings = (payload) => {
-  // return axios().get('/getSettings', payload)
+  // return axios.get('/getSettings', payload)
   //   .then(res => {
   //     return res
   //   })
+
+  // use Promise to mimic an api:
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve({
